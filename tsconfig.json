@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "allowJs": true, 
+    "sourceMap": true,
+    "baseUrl": "/home/ilya/Projects/nodejs-labs/lab6/basic-nodejs-mitso/src",
+    "outDir": "/home/ilya/Projects/nodejs-labs/lab6/basic-nodejs-mitso/build",
+    "rootDir": "/home/ilya/Projects/nodejs-labs/lab6/basic-nodejs-mitso/src",
+    "paths": {
+      "*": ["*"]
+    },
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "declaration": false
+  },
+  "exclude": ["node_modules"],
+  "include": ["/home/ilya/Projects/nodejs-labs/lab6/basic-nodejs-mitso/src/**/*.ts"]
+}
